@@ -108,6 +108,32 @@ jobs:
 
 workflows:
   version: 2
+  OpenSSL/1.1.1d:
+    jobs:
+      - gcc49:
+          context: openssl-1.1.1d
+      - gcc5:
+          context: openssl-1.1.1d
+      - gcc6:
+          context: openssl-1.1.1d
+      - gcc7:
+          context: openssl-1.1.1d
+      - gcc8:
+          context: openssl-1.1.1d
+      - gcc9:
+          context: openssl-1.1.1d
+      - clang39:
+          context: openssl-1.1.1d
+      - clang40:
+          context: openssl-1.1.1d
+      - clang50:
+          context: openssl-1.1.1d
+      - clang60:
+          context: openssl-1.1.1d
+      - clang7:
+          context: openssl-1.1.1d
+      - clang8:
+          context: openssl-1.1.1d
   OpenSSL/1.1.1c:
     jobs:
       - gcc49:

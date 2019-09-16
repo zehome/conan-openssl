@@ -160,6 +160,7 @@ class OpenSSLConan(ConanFile):
             "1.1.1a": "fc20130f8b7cbd2fb918b2f14e2f429e109c31ddd0fb38fc5d71d9ffed3f9f41",
             "1.1.1b": "5c557b023230413dfb0756f3137a13e6d726838ccd1430888ad15bfb2b43ea4b",
             "1.1.1c": "f6fb3079ad15076154eda9413fed42877d668e7069d9b87396d0804fdb3f4c90",
+            "1.1.1d": "1e3a91bc1f9dfce01af26026f856e064eab4c8ee0a8f457b5ae30b40b8b711f2",
         }
         try:
             url = "https://www.openssl.org/source/openssl-%s.tar.gz" % self.version
